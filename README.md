@@ -54,13 +54,4 @@ The script is inside python directory in the repo.
 For validation, you need to create a file in the same folder as the script and mention all the credit card numbers in separate lines.
 On the first line you have to mention total number of entries followed by the credit card numbers each one in the consecutive lines.
 
-Sample input file -
-6
-4123456789123456
-5123-4567-8912-3456
-61234-567-8912-3456
-4123356789123456
-5133-3367-8912-3456
-5123 - 3567 - 8912 - 3456
-
 The script will prompt you the input filename. And will then output the result as valid or invalid.
