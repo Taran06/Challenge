@@ -50,8 +50,23 @@ Or we can add an inbound rule to allow traffic from our public IP and access the
 
 Coding:
 
+Language used - Python version 3
 The script is inside python directory in the repo.
 For validation, you need to create a file in the same folder as the script and mention all the credit card numbers in separate lines.
 On the first line you have to mention total number of entries followed by the credit card numbers each one in the consecutive lines.
 
 The script will prompt you the input filename. And will then output the result as valid or invalid.
+
+Usage:
+
+[root@localhost python]# python3 credit-card-validation.py
+What is the name of your input file?
+cardlist
+
+Valid
+Valid
+Invalid
+Valid
+Invalid
+Invalid
+
